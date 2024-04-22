@@ -41,7 +41,7 @@ flowchart TD
     E --> F[Display cards]
     F --> G[Get bet]
     G --> H[Draw player card]
-    H --> I [Evaluate player card]
+    H --> I[Evaluate player card]
     H --> Y[Try Again?]
     Y --> |Yes| B
     Y --> |No| Z
