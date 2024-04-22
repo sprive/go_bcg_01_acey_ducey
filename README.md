@@ -38,7 +38,6 @@ flowchart TD
     
     A[Introduction] --> B[Your money remaining]
     B --> E[Draw dealer cards]
-    // Evaluate dealer cards
     E --> F[Display cards]
     F --> G[Get bet]
     G --> H[Draw player card]
