@@ -1,0 +1,35 @@
+# Acey Ducey
+[`go_bcg_01_acey_ducey`](https://github.com/sprive/go_bcg_01_acey_ducey).
+
+License
+No Copyright
+
+This work is released to the Public Domain.
+
+
+The author, [sprive](https://github.com/sprive) has dedicated the work to the
+public domain by waiving all copyright and related or neighboring rights to this work worldwide
+under copyright law including all related and neighboring rights, to the extent allowed by law.
+
+You can copy, modify, distribute and create derivative work, even for commercial purposes, all
+without asking permission. Giving credits is appreciated though;
+you may link to this repository if you wish.
+
+<p xmlns:dct="https://purl.org/dc/terms/">
+  <a rel="license"
+     href="https://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="Creative Commons Zero" />
+  </a>
+</p>
+
+`SPDX-License-Identifier: CC0-1.0`
+
+## Further License History
+
+Above license is overkill boilerplate needed to support Git license filtering. 
+This work is derived from original work licensed in the public domain.
+
+1. The original code (on which this was based) was written by Bill Palmby of Prairie View, Illinois.
+1. The book (BASIC Computer Games) which contained this game was copyright 1975 and 1978, then considered
+Public Domain, but has since been explicitly released as such:
+- [David H. Ahl, PUBLIC DOMAIN](https://twitter.com/search?q=David%20ahl&src=typed_query&f=live)
