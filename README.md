@@ -42,7 +42,7 @@ flowchart TD
     F --> G[Get bet]
     G --> H[Draw player card]
     H --> I[Evaluate player card]
-    H --> Y[Try Again?]
+    I --> Y[Try Again?]
     Y --> |Yes| B
     Y --> |No| Z
     Z[END]
