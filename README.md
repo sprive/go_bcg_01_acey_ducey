@@ -15,19 +15,6 @@ NOTE: The game is actually "Acey Deucey", and sometimes called "In-Between".
 Just getting used to Go. When BASIC was a thing, this was the first code I ever typed in and debugged.
 So why not in Go? 
 
-## Design Process
-
-Flowchart the logic using [mermaid-js](https://github.com/mermaid-js/mermaid).
-
-1. Review actual card game rules (found discrepencies vs the ruleset hosted by Bicycle Cards)
-1. Review code in the book
-1. Review other implementations: rando Github, the `coding-horror` repo, and forums. 
-1. Flowchart original logic
-
-To study any of these BCG listings, it helps to annotate printed code, or flowchart it.
-The BASIC language variant used in the book did not support GOSUB, or even "THEN" and "ELSE".
-Their workaround was spaghetti GOTOs, sometimes statement cramming, which makes it harder to read.
-
 ## Game Logic (Approximate)
 
 This version follows the original book listing's logic and rules. Note that the book deviates
@@ -54,6 +41,15 @@ You get the picture.
 
 `go run main.go`
 NOTE: Requires Go v1.20+ (has math/rand with seed auto-set).
+
+## Game Review Process
+
+Because the original code has bugs (or undocumented deviations from In-Between's ruleset),
+and it is spaghetti BASIC GOTO code (not even using subroutines), I had to step through it
+on paper. I also wanted to outline flow with [mermaid-js](https://github.com/mermaid-js/mermaid).
+
+When I was nearly done, I found the epic Something Awful BCG code review thread. 
+It's a great read, and steps through a few of the other BCG listings. A pity the thread ended.
 
 ## Credits
 
