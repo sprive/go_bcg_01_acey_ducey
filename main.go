@@ -118,7 +118,7 @@ func prompt() bool {
 }
 
 // getBet returns an int representing a valid bet amount >= 0, after validation loop.
-func getBet(bankroll int) int {
+func getBet(bankroll int) (bet int) {
 	reader := bufio.NewReader(os.Stdin)
 	for {
 		fmt.Printf("\nWHAT IS YOUR BET? ")
